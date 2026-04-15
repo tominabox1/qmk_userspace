@@ -1,4 +1,15 @@
 {
-    "userspace_version": "1.0",
-    "build_targets": []
+    "userspace_version": "1.1",
+    "build_targets": [
+        ["lazydesigners/dimple/staggered/rev3", "tominabox1"],
+        ["mb44", "tominabox1"],
+        ["jd40", "tominabox1"],
+	["key_6fe18b72", "tominabox1"],
+	["lily58/rev1", "tominabox1"],
+	["tominabox1/adalyn", "tominabox1"],
+	["tominabox1/alexei", "tominabox1"],
+	["tominabox1/littlefoot_lx", "tominabox1"],
+	["tominabox1/qaz", "tominabox1"],
+	["tominabox1/underscore33", "tominabox1"]
+    ]
 }
