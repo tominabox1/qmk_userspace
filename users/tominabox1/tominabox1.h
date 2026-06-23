@@ -18,12 +18,13 @@ enum layers {
 };
 
 enum custom_keycodes {
-  BASE,
-  RGBRST,
-  SPONGEBOB,
-  AESTHETIC,
-  KC_SECRET_1,
-  USER_SAFE_RANGE,
+    BASE,
+    RGBRST,
+    SPONGEBOB,
+    AESTHETIC,
+    KC_SECRET_1,
+    KC_KVM1,
+    USER_SAFE_RANGE
 };
 
 enum {
@@ -33,7 +34,7 @@ enum {
     TD_RESET,
     TD_SLS_ENT,
     TD_DCAP
-    };
+};
 
 /* Tapdnce keycodes */
 #define KC_TABESC TD(TD_TAB_ESC) // Single tap tab, double tap esc

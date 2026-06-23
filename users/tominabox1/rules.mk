@@ -80,6 +80,8 @@ BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality on B7 by d
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 TAP_DANCE_ENABLE = yes
 COMBO_ENABLE = yes
+NKRO_ENABLE = no
+FORCE_NKRO = no
 INTROSPECTION_KEYMAP_C = tominabox1.c
 endif
 
@@ -254,6 +256,8 @@ ENCODER_ENABLE = no
 EXTRAKEY_ENABLE = yes
 LTO_ENABLE = yes
 #EXTRAFLAGS += -flto
+NKRO_ENABLE = no
+FORCE_NKRO = no
 INTROSPECTION_KEYMAP_C = tominabox1.c
 endif
 
